@@ -1,0 +1,16 @@
+[project]
+name = "uv-click-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "click>=8.1.7",
+]
+
+[project.scripts]
+uv-click-example = "uv_click_example:cli"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
